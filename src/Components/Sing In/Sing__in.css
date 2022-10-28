@@ -1,0 +1,182 @@
+.Sing__in{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.Sing__in__bg{
+    width: 60%;
+    height: 100vh;
+    background-color: red;
+    background-image: url("../../../public/images/Sain__in__img/Sing__in__img.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+
+
+}
+.Sing__in__img__circle1{
+    width: 50%;
+    height: 50%;
+    border: 1px solid white;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -150px;
+    left: -280px;
+
+
+}
+.Sing__in__img__circle2{
+    width: 50%;
+    height: 50%;
+    border: 1px solid white;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -90px;
+    left: -330px;
+}
+.Sing__in__bg__text{
+    text-align: center;
+    color: white;
+    margin-top: 250px;
+    font-size: 45px;
+    position: relative;
+}
+.Sing__in__bg__bottom{
+    width: 80%;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 18px;
+    font-size: 12px;
+}
+.Sing__in__bg__bottom__ichidagi_ota{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Sing__in__bg__bottom p{
+    color: white;
+}
+.imgChard{
+    width: 800px;
+    rotate: -90deg;
+    position: absolute;
+    top: 20px;
+    left: 450px;
+    transform: rotateY(180deg);
+}
+.Sing__in__twter__ota{
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Sing__in__twter__img__twter{
+   font-size: 18;
+}
+.Sing__in__instagram__icon__ota{
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Sing__in__instagram__icon__ota__instagram{
+    color: white;
+    font-size: 18px;
+}
+.Sing__in__bottom__arrow{
+    width: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Sing__in__bottom__arrow i{
+    font-size: 30px;
+    color: white;
+}
+
+
+
+
+
+
+
+.Sing__in__rigistration{
+    width: 40%;
+    height: 100vh;
+    position: relative;
+}
+.Sing__in__rigistration__text{
+    font-size: 52px;
+    margin-left: 50px;
+    margin-top: 35px;
+}
+.Sing__in__rigistration__Text__Email{
+    font-size: 16px;
+    margin-left: 50px;
+
+}
+.Sing__in__rigistration__inp__email{
+    width: 350px;
+    padding: 15px;
+    margin-left: 50px;
+    border-radius: 8px;
+    border: 1px solid black;
+}
+.Sing__in__rigistration__Text__Password{
+    font-size: 16px;
+    margin-left: 50px;
+}
+.Sing__in__rigistration__inp__password{
+    width: 350px;
+    padding: 15px;
+    margin-left: 50px;
+    border-radius: 8px;
+    border: 1px solid black;
+}
+
+.Sing__in__rigistration__parent__checkbox{
+    width: 200px;
+    display: flex;
+    margin-left: 50px;
+}
+.Sing__in__rigistration__button1{
+    width: 380px;
+    height: 47px;
+    background-color: blueviolet;
+    border: 1px solid blueviolet;
+    border-radius: 8px;
+    color: white;
+    margin-left: 50px;
+    margin-top: 60px;
+    font-weight: 700;
+    font-size: 15px;
+}
+.Sing__in__rigistration__p{
+    margin-left: 230px;
+}
+.Sing__in__rigistration__button2{
+    width: 380px;
+    height: 47px;
+    margin-left: 50px;
+    background-color: white;
+    border-radius: 8px;
+    font-size: 18px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-weight: 700;
+    
+}
+.Sing__in__rigistration__buttom__img{
+    width: 20px;
+}
+
+
+
