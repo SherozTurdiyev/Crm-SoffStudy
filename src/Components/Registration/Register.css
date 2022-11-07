@@ -1,0 +1,116 @@
+.Register__div {
+    width: 380px;
+    height: 650px;
+    /* background-color: red; */
+    margin: 10px auto;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+.Register__div__header {
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid gray;
+}
+
+.Register__div__form{
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 5px;
+
+}
+.form__p{
+    display: inline;
+    padding-top: 5px;
+}
+.form__inp__name {
+    width: 319px;
+    height: 20px;
+    border: 1px solid #D6E4EC;
+    border-radius: 4px;
+    padding: 5px 0px 4.46px 21px;
+}
+
+.form__inp__date{
+    width: 319px;
+    height: 20px;
+    border: 1px solid #D6E4EC;
+    border-radius: 4px;
+    padding: 5px 0px 4.46px 21px;
+    margin-top: 4.91px;
+    margin-bottom: 12px;
+}
+.form__Text__CourseName{
+    display: inline;
+}
+.From__select{
+    width: 340px;
+    height: 31.46px;
+    border: 1px solid #D6E4EC;
+    border-radius: 4px;
+    padding: 5px 0px 4.46px 21px;
+    margin-top: 1px;
+    margin-bottom: 7.86px;
+}
+.Form__Text__Payment{
+    display: inline;
+}
+.Form__Select2{
+    width: 340px;
+    height: 31.46px;
+    border: 1px solid #D6E4EC;
+    border-radius: 4px;
+    padding: 5px 0px 4.46px 21px;
+    margin-top: 1.96px;
+    margin-bottom: 10.62px;
+}
+
+.form__Text__Email{
+    display: inline;
+}
+.form__Inp__Email{
+    width: 319px;
+    height: 20px;
+    border: 1px solid #D6E4EC;
+    border-radius: 4px;
+    padding: 5px 0px 4.46px 21px;
+    margin-top: 7.22px;
+    margin-bottom: 6.54px;
+}
+.form__Checkbox__Father{
+    width: 40%;
+    height: 25px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.form__Checkbox__Father{
+    border-radius: 50%;
+}
+
+.form__Text__Phone{
+    display: inline;
+}
+.form__Inp__Phone{
+    width: 319px;
+    height: 20px;
+    border: 1px solid #D6E4EC;
+    border-radius: 4px;
+    padding: 5px 0px 4.46px 21px;
+    margin-top: 10.22px;
+    margin-bottom: 113.4px;
+}
+.Form__button{
+    width: 108px;
+    height: 31.42px;
+    border-radius: 8px;
+    background: #5A55D2;
+    color: white;
+    border: 1px solid #5A55D2;
+    outline: none;
+    margin-left: 235px;
+}

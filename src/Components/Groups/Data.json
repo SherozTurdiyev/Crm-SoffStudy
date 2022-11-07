@@ -1,0 +1,65 @@
+[
+    {
+        "name":"Front-Ent 010",
+        "count":6,
+        "value":90,
+        "daraja":"REACT",
+        "fill":"#FEE4CB"
+    },
+    {
+        "name":"Front-Ent 011",
+        "count":10,
+        "value":80,
+        "daraja":"REACT",
+        "fill":"#FEE4CB"
+    },
+    {
+        "name":"Front-Ent 013",
+        "count":5,
+        "value":70,
+        "daraja":"JS",
+        "fill":"#FEE4CB"
+    },
+    {
+        "name":"Back-End 001",
+        "count":8,
+        "value":80,
+        "daraja":"",
+        "fill":"#DBF6FD"
+    },
+    {
+        "name":"Front-Ent 017",
+        "count":6,
+        "value":80,
+        "daraja":"REACT",
+        "fill":"#FEE4CB"
+    },
+    {
+        "name":"Front-Ent 018",
+        "count":8,
+        "value":80,
+        "daraja":"CSS",
+        "fill":"#FEE4CB"
+    },
+    {
+        "name":"Beck-End 002",
+        "count":7,
+        "value":80,
+        "daraja":"",
+        "fill":"#DBF6FD"
+    },
+    {
+        "name":"Front-Ent 019",
+        "count":10,
+        "value":70,
+        "daraja":"",
+        "fill":"#FEE4CB"
+    },
+    {
+        "name":"Front-Ent 020",
+        "count":3,
+        "value":80,
+        "daraja":"",
+        "fill":"#FEE4CB"
+    }
+]

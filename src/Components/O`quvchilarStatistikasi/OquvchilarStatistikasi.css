@@ -1,0 +1,18 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 60px rgba(226, 236, 249, 0.5);
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.img{
+  width: 100px;
+  height: 100px;  
+}
+.Bitiruvchilar__div p{
+    margin-top: -24px;
+}

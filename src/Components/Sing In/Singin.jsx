@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Sing__in.css"
+import {Link} from 'react-router-dom'
 
 export default function Singin() {
   return (
@@ -48,7 +49,7 @@ export default function Singin() {
           <input type="checkbox" className='Sing__in__rigistration__checkbox' />
           <h5>Remember me</h5>
         </div>
-        <button className='Sing__in__rigistration__button1'>Sign in</button>
+        <Link to='/home'><button className='Sing__in__rigistration__button1'>Sign in</button></Link>
         <p className='Sing__in__rigistration__p'>Or</p>
         <button className='Sing__in__rigistration__button2'><img className='Sing__in__rigistration__buttom__img' src="./images/Sain__in__img/Sing__in__img__google.png" alt="rasim" /> Sign in with Google</button>
       </div>
