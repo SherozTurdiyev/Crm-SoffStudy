@@ -1,0 +1,238 @@
+.CRM {
+  background-color: #ffffff;
+  width: 306px;
+  height: 1198px;
+}
+
+.dashboard__crm {
+  display: flex;
+  align-items: center;
+}
+
+.dashboard__crm,
+h2 {
+  margin-left: 10px;
+}
+
+/* .kalit{
+    display: flex;
+    align-items: center;
+    background-color: #5932EA;
+    color: white;
+    width: 250px;
+    height: 46px;
+    border-radius: 20px;
+    border: none;
+    text-align: center;
+  } */
+
+/* .kalit , h3 , img{
+    margin-left: 10px;
+  } */
+
+.section,
+div,
+h5 {
+  color: #9197B3;
+}
+
+.section,
+div,
+i {
+  color: #9197B3;
+}
+
+.guruhlar {
+  width: 250px;
+  margin-left: -25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  transition: 0.4s;
+}
+
+.guruhlar:hover {
+  background-color: #5932EA;
+  transition: 0.4s;
+  border-radius: 8px;
+  margin-left: -20px;
+  color: red !important;
+}
+
+.guruhlar:hover h5,
+.guruhlar:hover .sozlamalar,
+.guruhlar:hover i {
+  color: white;
+}
+
+.sozlamalar {
+  font-size: 25px;
+}
+
+.img {
+  background-color: #9197B3;
+}
+
+.soat {
+  /* background: linear-gradient(rang yo'nalish , 1rang , 2rang  , ...); */
+  background: linear-gradient(90deg, #EAABF0, #4623E9);
+  width: 200px;
+  height: 150px;
+  border-radius: 20px;
+  left: -10px;
+  top: px;
+  position: relative;
+}
+
+b {
+  color: white;
+  text-align: center;
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  font-size: 32px;
+}
+
+/* .position{
+  position: absolute;
+    top: 900px;
+  } */
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 600px;
+}
+
+.footer img{
+  padding-left: 4px;
+}
+
+.footer__i{
+  padding-left: 10px;
+}
+
+.span {
+  font-size: 12px;
+  color: #757575;
+}
+
+.h4 {
+  color: black;
+  margin-left: 6px;
+}
+
+.icons {
+  color: black;
+  font-size: 30px;
+}
+
+.settings path {
+  stroke: gray !important;
+  transition: 0.4s;
+}
+
+.setting1 path {
+  stroke: gray !important;
+  transition: 0.4s;
+}
+
+.guruhlar:hover .setting1 path {
+  stroke: white !important;
+  transition: 0.4s;
+}
+
+.guruhlar:hover .settings path {
+  stroke: white !important;
+  transition: 0.4s;
+}
+
+.div35 {
+  border-radius: 25px;
+  width: 350px;
+  background-color: #FEE4CB;
+}
+
+.div__lines {
+  display: flex;
+  align-items: center;
+  margin-left: 0px;
+  margin-right: 10px;
+}
+
+.div__line {
+  width: 200px;
+  background-color: #FF942E;
+  padding: 2px 2px;
+  border-radius: 5px;
+}
+
+.div__line2 {
+  width: 150px;
+  background-color: #ffffff;
+  padding: 2px 2px;
+  border-radius: 5px;
+}
+
+.div__images {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.div__images .images {
+  margin-left: 50px;
+
+}
+
+.images img {
+  width: 20px;
+  margin-left: 2px;
+}
+
+.div__elements {
+  margin-left: 25px;
+}
+
+.p {
+  color: black;
+  position: absolute;
+  top: 1380px;
+  left: 300px;
+}
+
+.div2__elements {
+  display: flex;
+  align-items: center;
+}
+
+.div2__elements svg {
+  margin-left: 150px;
+}
+
+
+.soat__b{
+color: black;
+position: relative;
+left: -30px;
+}
+
+.Ai{
+  position: absolute;
+  top:30px;
+  left: 0px;
+  color: #1E1E1E;
+}
+
+.Ai2{
+  position: absolute;
+  top: 69px;
+  left: 0px;
+  color: #1E1E1E;
+}

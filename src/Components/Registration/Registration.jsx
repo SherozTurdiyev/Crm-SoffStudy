@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import "./Register.css"
 import {BsXLg} from 'react-icons/bs'
+import {Link} from 'react-router-dom'
 
 class Registration extends Component {
     render() {
@@ -10,7 +11,7 @@ class Registration extends Component {
                <div className='Register__div'>
                     <div className='Register__div__header'>
                         <h2>O’quvchi yaratish</h2>
-                        <BsXLg />
+                        <Link to='/'><BsXLg /></Link>
                     </div>
                     <div className='Register__div__form'>
                     <p className='form__p'>F.I.O</p>

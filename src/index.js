@@ -8,18 +8,26 @@ import Home from './Pages/Home';
 import Guruh from './Pages/Guruh';
 import Stastika from './Pages/Stastikalar';
 import Registir from './Pages/Registir';
+// import Dashboard from './Components/Dashboard/Dashboard';
+
+import Tabl from './Pages/Tabl';
+
+import OquvcilarKelishKetish  from './Components/O`quvchilarStatistikasi/OquvchilarStatistikasi'
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
-        {/* <Route path='/' element={<Home/>}/> */}
         <Route path='/' element={<App/>}>
+        {/* <Route index element={<Home/>}/> */}
           <Route path='/Guruh' element={<Guruh/>} />
           <Route path='/' element={<Stastika />}/>
+          <Route path='/table' element={<Tabl />} />
         </Route>
         <Route path='/Registratsiya' element={<Registir />} />
+        <Route path='/Kelish'  element={<OquvcilarKelishKetish />}/>
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

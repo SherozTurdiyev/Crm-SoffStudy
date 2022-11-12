@@ -1,6 +1,7 @@
 .container {
-    width: 80%;
+    width: 75%;
     margin: 0 auto;
+    margin-right: 100px;
     background: #FFFFFF;
     box-shadow: 0px 10px 60px rgba(226, 236, 249, 0.5);
     border-radius: 30px;
@@ -10,8 +11,9 @@
 
 }
 .img{
-  width: 100px;
-  height: 100px;  
+  width: 70px;
+  height: 70px;  
+  background-color: #FFFFFF;
 }
 .Bitiruvchilar__div p{
     margin-top: -24px;

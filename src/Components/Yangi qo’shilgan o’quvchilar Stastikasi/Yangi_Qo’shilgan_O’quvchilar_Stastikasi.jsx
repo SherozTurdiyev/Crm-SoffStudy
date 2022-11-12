@@ -94,18 +94,18 @@ export default function App() {
   );
 
   return (
-    <div>
+    <div style={{ marginLeft:"20px" }}>
       <h1 style={{marginLeft:"100px"}}>O’quvchilar</h1>
       <p style={{marginLeft:"100px"}}>Yangi qo’shilgan o’quvchilar</p>
-      <PieChart  width={600} height={400}>
+      <PieChart  width={530} height={400}>
         <Pie
           activeIndex={activeIndex}
           activeShape={renderActiveShape}
           data={data}
-          cx={260}
-          cy={180}
-          innerRadius={100}
-          outerRadius={140}
+          cx={268}
+          cy={160}
+          innerRadius={80}
+          outerRadius={100}
           fill="#888ed4d8"
           dataKey="value"
           onMouseEnter={onPieEnter}

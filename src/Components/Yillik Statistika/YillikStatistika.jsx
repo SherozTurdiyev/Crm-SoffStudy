@@ -12,25 +12,25 @@ import {
 
 const data = [
   {
-    name: "Yanvar",
+    name: "Yan",
     uv: 100,
     pv: 111,
     amt: 2400
   },
   {
-    name: "Fevral",
+    name: "Fev",
     uv: 120,
     pv: 142,
     amt: 2210
   },
   {
-    name: "Mart",
+    name: "Mar",
     uv: 130,
     pv: 176,
     amt: 2290
   },
   {
-    name: "Aprel",
+    name: "Apr",
     uv: 120,
     pv: 131,
     amt: 2000
@@ -54,31 +54,31 @@ const data = [
     amt: 2500
   },
   {
-    name: "Avgust",
+    name: "Avg",
     uv: 3490,
     pv: 207,
     amt: 2100
   },
   {
-    name: "Sentyabr",
+    name: "Sen",
     uv: 3490,
     pv: 181,
     amt: 2100
   },
   {
-    name: "Oktyabr",
+    name: "Okt",
     uv: 3490,
     pv: 152,
     amt: 2100
   },
   {
-    name: "Noyabr",
+    name: "Noy",
     uv: 3490,
     pv: 111,
     amt: 2100
   },
   {
-    name: "Dekabr",
+    name: "Dek",
     uv: 3490,
     pv: 161,
     amt: 2100
@@ -90,7 +90,7 @@ export default function YillikStatistika() {
     <>
       <div>
         
-    <div style={{display:"flex" , alignItems: "center" , justifyContent:"space-between" , width: '820px'  , marginLeft:"50px"}}>
+    <div style={{display:"flex" , alignItems: "center" , justifyContent:"space-between" , width: '670px'  , marginLeft:"270px"}}>
     <h1>Yilik Satatistika</h1>
     <select style={{width: "150px" , textAlign: "center" , height: "30px"}} name="" id="">
         <option disabled selected>Yillik statistika</option>
@@ -101,7 +101,8 @@ export default function YillikStatistika() {
     </div>
 
     <BarChart
-      width={900}
+    style={{marginLeft:"220px"}}
+      width={750}
       height={380}
       data={data}
       margin={{
