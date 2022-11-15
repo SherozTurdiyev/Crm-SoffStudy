@@ -62,7 +62,7 @@ const Navbar = () => {
     <div>
       <Box sx={{ flexGrow: 1 }}>
         {/* <AppBar position="static"> */}
-        <Toolbar sx={{ width: "70%", marginLeft: "250px" }}>
+        <Toolbar sx={{ width: "70%", marginLeft: "40px" }}>
           <IconButton
             size="large"
             edge="start"

@@ -1,49 +1,36 @@
-import React, { Component } from 'react';
+import React, { useState } from 'react';
+import Button from 'react-bootstrap/Button';
+import Modal from 'react-bootstrap/Modal';
 import "./Register.css"
-import {BsXLg} from 'react-icons/bs'
-import {Link} from 'react-router-dom'
 
-class Registration extends Component {
-    render() {
-        return (
-            <div>
-               <form action="">
-               <div className='Register__div'>
-                    <div className='Register__div__header'>
-                        <h2>O’quvchi yaratish</h2>
-                        <Link to='/'><BsXLg /></Link>
-                    </div>
-                    <div className='Register__div__form'>
-                    <p className='form__p'>F.I.O</p>
-                    <input className='form__inp__name' type="text" placeholder='Ism Familya'/>
-                    <p className='form__p'>Ro’yxatga olingan sana</p>
-                    <input className='form__inp__date' type="date" />
-                    <p className='form__Text__CourseName'>Kurs nomi</p>
-                    <select className='From__select' name="" id="">
-                        <option value="">Frontend</option>
-                        <option value="">Back-end</option>
-                        <option value="">3D MAX</option>
-                        <option value="">SMM</option>
-                    </select>
-                    <p className='Form__Text__Payment'>To'lov</p>
-                    <select className='Form__Select2' name="" id="">
-                        <option value="">Naqt</option>
-                        <option value="">Plastik Karta</option>
-                    </select>
-                    <p className='form__Text__Email'>Email</p>
-                    <input className='form__Inp__Email' type="email" placeholder='Elmail'/>
-                    <div className="form__Checkbox__Father">
-                        <input type="checkbox" /> <b>Erkak</b> <input type="checkbox" /><b>Ayol</b>
-                    </div>
-                    <p className='form__Text__Phone'>Telefon nomer</p>
-                    <input className='form__Inp__Phone' type="number" placeholder='Nomer'/>
-                    <button className='Form__button'>Saqlash</button>
-                    </div>
-                </div>
-               </form>
-            </div>
-        );
-    }
+
+export default function Registration() {
+
+    const [show, setShow] = useState(false);
+
+    const handleClose = () => setShow(false);
+    const handleShow = () => setShow(true);
+    return (
+        <>
+            <Button variant="success" onClick={handleShow}>
+                Launch demo modal
+            </Button>
+
+            <Modal show={show} onHide={handleClose} backdrop="static" keyboard={false}>
+                <Modal.Header closeButton>
+                    <Modal.Title>Modal heading</Modal.Title>
+                </Modal.Header>
+                <Modal.Body>Woohoo, you're reading this text in a modal!</Modal.Body>
+                <Modal.Footer>
+                    <Button variant="danger" onClick={handleClose}>
+                        Close
+                    </Button>
+                    <Button variant="primary" onClick={handleClose}>
+                        Save Changes
+                    </Button>
+                </Modal.Footer>
+            </Modal>
+        </>
+
+    );
 }
-
-export default Registration;
