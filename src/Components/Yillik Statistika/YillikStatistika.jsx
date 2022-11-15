@@ -90,7 +90,7 @@ export default function YillikStatistika() {
     <>
       <div>
         
-    <div style={{display:"flex" , alignItems: "center" , justifyContent:"space-between" , width: '670px'  , marginLeft:"270px"}}>
+    <div style={{display:"flex" , alignItems: "center" , justifyContent:"space-between" , width: '600px'  , marginLeft:"90px"}}>
     <h1>Yilik Satatistika</h1>
     <select style={{width: "150px" , textAlign: "center" , height: "30px"}} name="" id="">
         <option disabled selected>Yillik statistika</option>
@@ -101,7 +101,7 @@ export default function YillikStatistika() {
     </div>
 
     <BarChart
-    style={{marginLeft:"220px"}}
+    style={{marginLeft:"40px"}}
       width={750}
       height={380}
       data={data}
